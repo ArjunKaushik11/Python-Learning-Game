@@ -1,0 +1,17 @@
+[
+  {
+    "code": "for i in range(3): print(i)",
+    "output": "0\n1\n2",
+    "explanation": "range(3) generates 0,1,2 for loop iteration."
+  },
+  {
+    "code": "for x in [1,2,3]: print(x*2)",
+    "output": "2\n4\n6",
+    "explanation": "Loop multiplies each list item by 2."
+  },
+  {
+    "code": "for ch in 'Hi': print(ch)",
+    "output": "H\ni",
+    "explanation": "Loop iterates over each character in a string."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["func", "def", "function", "define"],
+    "answer": "def"
+  },
+  {
+    "question": "What is the output of: def add(a,b): return a+b; print(add(2,3))",
+    "options": ["23", "5", "Error", "None"],
+    "answer": "5"
+  },
+  {
+    "question": "What happens if a function doesn’t have a return statement?",
+    "options": ["It returns 0", "It returns None", "It raises an error", "It loops forever"],
+    "answer": "It returns None"
+  },
+  {
+    "question": "What does the return statement do?",
+    "options": ["Exits the loop", "Exits the function and returns a value", "Skips code", "None of these"],
+    "answer": "Exits the function and returns a value"
+  },
+  {
+    "question": "What is the default return value of a function without return?",
+    "options": ["0", "Null", "None", "False"],
+    "answer": "None"
+  },
+  {
+    "question": "What will print(greet('Arjun')) output if greet(name) returns 'Hi '+name?",
+    "options": ["Hi Arjun", "Hello Arjun", "Hi+Arjun", "Error"],
+    "answer": "Hi Arjun"
+  },
+  {
+    "question": "Which is used to pass variable number of arguments?",
+    "options": ["*args", "**args", "*vars", "multiArgs"],
+    "answer": "*args"
+  },
+  {
+    "question": "Which allows keyword arguments in a function?",
+    "options": ["**kwargs", "##kwargs", "@kwargs", "kwargs()"],
+    "answer": "**kwargs"
+  },
+  {
+    "question": "Which keyword is used to call a function?",
+    "options": ["call", "run", "print", "function name followed by ()"],
+    "answer": "function name followed by ()"
+  },
+  {
+    "question": "What is output of: def add(a,b=2): return a+b; print(add(3))",
+    "options": ["5", "Error", "3", "None"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of these statements defines a function that takes no parameters?",
+    "options": ["def f(): pass", "function f():", "def f: pass", "define f()"],
+    "answer": "def f(): pass"
+  },
+  {
+    "question": "What will this print: def square(x): return x*x; print(square(5))",
+    "options": ["5", "10", "25", "Error"],
+    "answer": "25"
+  },
+  {
+    "question": "Which statement is correct about a function?",
+    "options": ["It must always return a value", "It executes only once", "It can be reused", "It cannot take input"],
+    "answer": "It can be reused"
+  },
+  {
+    "question": "What is recursion?",
+    "options": ["Function calling itself", "Function calling another", "Infinite loop", "Syntax error"],
+    "answer": "Function calling itself"
+  },
+  {
+    "question": "Which of these returns multiple values?",
+    "options": ["return a,b", "return [a,b]", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "question": "What is output of: def add(a,b): print(a+b); add(2,3)",
+    "options": ["None", "5", "Error", "add"],
+    "answer": "5"
+  },
+  {
+    "question": "What will happen if you call a function before defining it?",
+    "options": ["It will work", "It will raise NameError", "It will return None", "It will print nothing"],
+    "answer": "It will raise NameError"
+  },
+  {
+    "question": "What does 'pass' do inside a function?",
+    "options": ["Skips execution", "Terminates program", "Raises an error", "Repeats loop"],
+    "answer": "Skips execution"
+  },
+  {
+    "question": "Which function returns the sum of list elements?",
+    "options": ["add()", "sum()", "total()", "plus()"],
+    "answer": "sum()"
+  },
+  {
+    "question": "Which is true about functions in Python?",
+    "options": ["They help reuse code", "They increase redundancy", "They cannot return values", "They must have parameters"],
+    "answer": "They help reuse code"
+  }
+]
