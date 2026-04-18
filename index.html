@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🐍 CodeMaster – Learn Python</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu" class="menu">
+  <h1>🐍 CodeMaster</h1>
+  <p>Choose your topic:</p>
+
+  <!-- Topic dropdown -->
+  <select id="topicSelect">
+    <option value="basics">🧩 Basics</option>
+    <option value="loops">🔁 Loops</option>
+    <option value="functions">⚙️ Functions</option>
+  </select>
+
+  <p style="margin-top: 20px;">Choose your mode:</p>
+  <button onclick="startGame('match')">🎯 Match Mode</button>
+  <button onclick="startGame('learn')">📚 Learn Mode</button>
+  <button onclick="startGame('quiz')">🧠 Quiz Mode</button>
+  <button onclick="startGame('speed')">⏱️ Speed Mode</button>
+  <button onclick="startGame('challenge')">⚔️ Challenge Mode</button>
+
+  <div class="stats">
+    <p>High Score: <span id="best">0</span></p>
+    <p>Accuracy: <span id="acc">0</span>%</p>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+  <div id="game-screen" class="hidden">
+    <div class="top-bar">
+      <button onclick="showMenu()">🏠 Back</button>
+      <span id="timer"></span>
+      <span id="score">Score: 0</span>
+    </div>
+    <div id="game-board" class="grid"></div>
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <div id="popup" class="popup hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

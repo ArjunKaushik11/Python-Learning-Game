@@ -1,0 +1,289 @@
+:root {
+  --bg: #0b0f14;
+  --card: #0f1720;
+  --accent: #16a34a;
+  --text: #e6eef3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b1410, #000);
+  color: var(--text);
+  font-family: "Segoe UI", Roboto, "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu button {
+  margin: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #021;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.menu button:hover {
+  background: #22c55e;
+  transform: scale(1.05);
+}
+
+
+.stats {
+  margin-top: 20px;
+  color: var(--text);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  gap: 25px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  position: relative;
+  width: 180px;
+  height: 120px;
+  border-radius: 12px;
+  background: var(--card);
+  cursor: pointer;
+  perspective: 800px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  user-select: none;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(22, 163, 74, 0.4);
+  transform: scale(1.04);
+}
+
+.card .front,
+.card .back {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  transition: transform 0.45s ease, opacity 0.3s ease;
+  padding: 10px;
+}
+
+.card .front {
+  transform: rotateY(0deg);
+  background: rgba(255, 255, 255, 0.03);
+  color: #cbd5e1;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.card .back {
+  transform: rotateY(-180deg);
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  z-index: 1;
+}
+
+.card.flipped .front {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.card.flipped .back {
+  transform: rotateY(0deg);
+  opacity: 1;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.top-bar {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.popup {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(22, 163, 74, 0.95);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  animation: fade 2s ease;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(3, 140px);
+    gap: 18px;
+  }
+  .card {
+    width: 140px;
+    height: 100px;
+    font-size: 14px;
+  }
+}
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: #021;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+select:hover {
+  background: #22c55e;
+}
+/* 🧠 QUIZ MODE STYLING */
+#game-board h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+}
+
+.quiz-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.quiz-options .opt {
+  background: #111827;
+  color: #f3f4f6;
+  border: 2px solid #22c55e;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 90px;
+}
+
+.quiz-options .opt:hover {
+  background: #22c55e;
+  color: #000;
+  transform: scale(1.05);
+}
+
+#score {
+  font-weight: 600;
+  color: #f3f4f6;
+  font-size: 16px;
+}
+#game-board h2 {
+  color: #22c55e;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#game-board p {
+  text-align: center;
+  color: #fff;
+}
+
+.quiz-options button.opt {
+  background: #111827;
+  color: #fff;
+  border: 2px solid #22c55e;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quiz-options button.opt:hover {
+  background: #22c55e;
+  color: #000;
+}
+/* 💬 Motivational Quote Popup */
+.motivation-popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #22c55e;
+  color: #000;
+  padding: 15px 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  font-weight: 700;
+  font-size: 16px;
+  animation: slideUp 6s ease-in-out forwards;
+  z-index: 9999;
+}
+
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(20px); }
+}
+
