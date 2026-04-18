@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the output of print(2 ** 3)?",
+    "options": ["6", "8", "9", "Error"],
+    "answer": "8"
+  },
+  {
+    "question": "What does len('Hello') return?",
+    "options": ["4", "5", "6", "Error"],
+    "answer": "5"
+  },
+  {
+    "question": "Which operator is used for floor division?",
+    "options": ["/", "//", "%", "**"],
+    "answer": "//"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["def", "func", "define", "function"],
+    "answer": "def"
+  },
+  {
+    "question": "What data type is [1, 2, 3]?",
+    "options": ["Tuple", "List", "Set", "Dict"],
+    "answer": "List"
+  },
+  {
+    "question": "What is output of print(10 > 5 and 5 < 2)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of these is a tuple?",
+    "options": ["[1,2]", "{1,2}", "(1,2)", "<1,2>"],
+    "answer": "(1,2)"
+  },
+  {
+    "question": "Which method converts a string to uppercase?",
+    "options": ["upper()", "capitalize()", "toUpper()", "case()"],
+    "answer": "upper()"
+  },
+  {
+    "question": "What will print('A' * 3) output?",
+    "options": ["AAA", "A3", "Error", "3A"],
+    "answer": "AAA"
+  },
+  {
+    "question": "Which is not a valid variable name?",
+    "options": ["_value", "2data", "data2", "Data"],
+    "answer": "2data"
+  },
+  {
+    "question": "Which keyword creates a loop in Python?",
+    "options": ["for", "while", "loop", "repeat"],
+    "answer": "for"
+  },
+  {
+    "question": "What is output of bool(0)?",
+    "options": ["True", "False", "0", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which data type is immutable?",
+    "options": ["List", "Dict", "Set", "Tuple"],
+    "answer": "Tuple"
+  },
+  {
+    "question": "Which operator checks equality?",
+    "options": ["=", "==", "!=", "<>"],
+    "answer": "=="
+  },
+  {
+    "question": "Which of the following defines a dictionary?",
+    "options": ["{}", "[]", "()", "<>"],
+    "answer": "{}"
+  },
+  {
+    "question": "What is output of print(type('Python'))?",
+    "options": ["<class 'list'>", "<class 'str'>", "<class 'tuple'>", "<class 'dict'>"],
+    "answer": "<class 'str'>"
+  },
+  {
+    "question": "What is returned by min([4,2,8])?",
+    "options": ["2", "4", "8", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which statement prints numbers from 0 to 4?",
+    "options": ["for i in range(5): print(i)", "for i in range(4): print(i)", "for i in 5: print(i)", "print(range(5))"],
+    "answer": "for i in range(5): print(i)"
+  },
+  {
+    "question": "Which function gives number of elements in a list?",
+    "options": ["size()", "len()", "count()", "sum()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which is correct syntax to comment?",
+    "options": ["// comment", "# comment", "/* comment */", "<!-- comment -->"],
+    "answer": "# comment"
+  }
+]

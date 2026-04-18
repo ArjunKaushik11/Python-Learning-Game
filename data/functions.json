@@ -1,0 +1,17 @@
+[
+  {
+    "code": "def add(a,b): return a+b\nprint(add(2,3))",
+    "output": "5",
+    "explanation": "Function add() returns sum of two numbers."
+  },
+  {
+    "code": "def greet(): print('Hello')\ngreet()",
+    "output": "Hello",
+    "explanation": "Function greet() prints Hello when called."
+  },
+  {
+    "code": "def square(x): return x*x\nprint(square(4))",
+    "output": "16",
+    "explanation": "Function returns square of input number."
+  }
+]

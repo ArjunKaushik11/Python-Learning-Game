@@ -1,0 +1,102 @@
+[
+  {
+    "code": "print(2 + 3)",
+    "output": "5",
+    "explanation": "Addition operator adds two numbers."
+  },
+  {
+    "code": "print(10 - 4)",
+    "output": "6",
+    "explanation": "Subtraction operator subtracts numbers."
+  },
+  {
+    "code": "print(3 * 4)",
+    "output": "12",
+    "explanation": "Multiplication operator multiplies two values."
+  },
+  {
+    "code": "print(8 / 2)",
+    "output": "4.0",
+    "explanation": "Division operator returns a float result."
+  },
+  {
+    "code": "print(5 // 2)",
+    "output": "2",
+    "explanation": "Floor division removes decimal part of result."
+  },
+  {
+    "code": "print(5 % 2)",
+    "output": "1",
+    "explanation": "Modulo operator gives remainder."
+  },
+  {
+    "code": "print(2 ** 3)",
+    "output": "8",
+    "explanation": "** is the exponentiation operator."
+  },
+  {
+    "code": "len('SkillSwap')",
+    "output": "9",
+    "explanation": "len() returns the number of characters in a string."
+  },
+  {
+    "code": "'Python'.lower()",
+    "output": "python",
+    "explanation": "lower() converts text to lowercase."
+  },
+  {
+    "code": "'python'.upper()",
+    "output": "PYTHON",
+    "explanation": "upper() converts text to uppercase."
+  },
+  {
+    "code": "print(type({1,2,3}))",
+    "output": "<class 'set'>",
+    "explanation": "Curly braces with comma-separated values make a set."
+  },
+  {
+    "code": "print(type([1,2,3]))",
+    "output": "<class 'list'>",
+    "explanation": "Square brackets make a list in Python."
+  },
+  {
+    "code": "print(type({'a':1}))",
+    "output": "<class 'dict'>",
+    "explanation": "Curly braces with key:value pairs make a dictionary."
+  },
+  {
+    "code": "a = [1,2,3]; print(a[-1])",
+    "output": "3",
+    "explanation": "Negative index -1 gives the last element."
+  },
+  {
+    "code": "print(10 > 5 and 5 < 3)",
+    "output": "False",
+    "explanation": "and operator returns True only if both sides are True."
+  },
+  {
+    "code": "print(10 > 5 or 5 < 3)",
+    "output": "True",
+    "explanation": "or operator returns True if any one condition is True."
+  },
+  {
+    "code": "for i in range(3): print(i)",
+    "output": "0\n1\n2",
+    "explanation": "range(3) generates numbers 0,1,2 for loop iteration."
+  },
+  {
+    "code": "print(sum([1,2,3]))",
+    "output": "6",
+    "explanation": "sum() adds all elements of a list."
+  },
+  {
+    "code": "print(min([3,1,4]))",
+    "output": "1",
+    "explanation": "min() returns smallest element."
+  },
+  {
+    "code": "print(max([3,1,4]))",
+    "output": "4",
+    "explanation": "max() returns largest element."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the output of print(2 + 3)?",
+    "options": ["23", "5", "6", "Error"],
+    "answer": "5"
+  },
+  {
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": ["^", "**", "pow", "exp"],
+    "answer": "**"
+  },
+  {
+    "question": "What is the result of 10 // 3?",
+    "options": ["3.33", "3", "4", "Error"],
+    "answer": "3"
+  },
+  {
+    "question": "Which function is used to find the length of a list?",
+    "options": ["count()", "size()", "len()", "length()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which of these is a valid variable name?",
+    "options": ["2data", "_value", "for", "x-y"],
+    "answer": "_value"
+  },
+  {
+    "question": "What will 'Python'.upper() return?",
+    "options": ["python", "PYTHON", "Python", "Error"],
+    "answer": "PYTHON"
+  },
+  {
+    "question": "What is the type of value True in Python?",
+    "options": ["int", "bool", "str", "float"],
+    "answer": "bool"
+  },
+  {
+    "question": "What will be the output of print(5 % 2)?",
+    "options": ["2.5", "1", "2", "0"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of the following defines a dictionary?",
+    "options": ["[]", "()", "{}", "<>"],
+    "answer": "{}"
+  },
+  {
+    "question": "What is the output of print(type([1,2,3]))?",
+    "options": ["<class 'list'>", "<class 'tuple'>", "<class 'set'>", "<class 'dict'>"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "question": "Which keyword is used to check condition in Python?",
+    "options": ["if", "for", "while", "check"],
+    "answer": "if"
+  },
+  {
+    "question": "Which operator is used for string concatenation?",
+    "options": ["+", "&", ".", ","],
+    "answer": "+"
+  },
+  {
+    "question": "Which method converts string to lowercase?",
+    "options": ["toLower()", "lower()", "downcase()", "case()"],
+    "answer": "lower()"
+  },
+  {
+    "question": "What is the output of print(3 * 'Hi')?",
+    "options": ["HiHiHi", "3Hi", "Hi3", "Error"],
+    "answer": "HiHiHi"
+  },
+  {
+    "question": "Which data type is immutable?",
+    "options": ["List", "Tuple", "Set", "Dict"],
+    "answer": "Tuple"
+  },
+  {
+    "question": "What will print(10 > 5 and 2 < 3) return?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "True"
+  },
+  {
+    "question": "What does len('Python') return?",
+    "options": ["5", "6", "7", "Error"],
+    "answer": "6"
+  },
+  {
+    "question": "What symbol is used to start a comment in Python?",
+    "options": ["//", "#", "/*", "<!--"],
+    "answer": "#"
+  },
+  {
+    "question": "What is the output of print(type('Hello'))?",
+    "options": ["<class 'string'>", "<class 'str'>", "<class 'char'>", "<class 'text'>"],
+    "answer": "<class 'str'>"
+  },
+  {
+    "question": "What is the output of print(4 == 4.0)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  }
+]
